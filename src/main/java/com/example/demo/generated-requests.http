@@ -1,0 +1,15 @@
+POST http://localhost:8080/api/v1/coin
+Content-Type: application/json
+
+{
+  "money": 9000,
+  "name": "Shark",
+  "username": "shark",
+  "password": "SwimmingIsCool"
+}
+
+###
+#DELETE http://localhost:8080/api/v1/coin/1
+
+PUT http://localhost:8080/api/v1/coin/1?money=9999
+Content-Type: application/json
